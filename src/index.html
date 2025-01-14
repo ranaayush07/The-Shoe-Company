@@ -7,9 +7,11 @@
     <title>The Shoe Company</title>
   </head>
   <body class="bg-black">
-    <header class="max-w-[1440px] w-full mx-auto fixed">
+    <header
+      class="fixed max-w-[1440px] top-0 left-0 right-0 w-full mx-auto z-10"
+    >
       <div
-        class="fixed top-0 left-0 right-0 px-[40px] lg:px-[80px] py-[10px] md:py-[15px] w-full"
+        class="px-[20px] md:px-[40px] lg:px-[80px] py-[10px] md:py-[15px] w-full"
       >
         <div class="flex justify-between items-center">
           <div class="logo">
@@ -59,29 +61,44 @@
     </header>
     <section
       id="hero"
-      class="bg-[url('/images/background.png')] bg-contain bg-no-repeat bg-right"
+      class="bg-[url('/images/background.png')] bg-cover md:bg-contain bg-no-repeat bg-right max-w-[1550px] mx-auto"
     >
-      <div class="max-w-[1300px] mx-auto pt-[140px]">
-        <div class="flex justify-between items-center">
+      <div class="max-w-[1300px] mx-auto px-0 md:pt-[140px]">
+        <div
+          class="flex flex-col md:flex-row justify-between self-start md:items-center"
+        >
           <div
-            class="text-[103px] font-bold text-white leading-[115px] pl-[20px]"
+            class="text-[28.83px] md:text-[103px] font-bold text-white leading-[33.73px] md:leading-[115px] pl-[20px]"
           >
-            The<br />
-            Shoe<br />
-            Company
+            <h1 class="pt-[140px] md:pt-[0px]">
+              The<br />
+              Shoe<br />
+              Company
+            </h1>
           </div>
           <div class="image">
-            <img src="/images/shoe.png" alt="shoe image" />
+            <img
+              src="/images/shoe.png"
+              alt="shoe image"
+              class="w-[60%] mx-auto pb-[60px] md:w-full md:pb-[0px]"
+            />
           </div>
         </div>
       </div>
     </section>
-    <section id="works" class="mt-10">
+    <section id="works" class="mt-10 max-w-[1440px] mx-auto">
       <h2
-        class="text-white text-5xl font-bold text-center w-[38%] -tracking-[4%] mx-auto"
+        class="text-white text-5xl font-bold text-center max-w-xl -tracking-[4%] mx-auto"
       >
         Have they finally made the perfect workout shoe ?
       </h2>
+      <div class="work-img relative mx-auto">
+        <img
+          src="/images/work.png"
+          alt="shoe-image"
+          class="mx-auto pt-[60px]"
+        />
+      </div>
     </section>
   </body>
 </html>
