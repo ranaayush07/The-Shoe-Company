@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +8,7 @@
   </head>
   <body class="bg-black">
     <header
-      class="fixed max-w-[1440px] top-0 left-0 right-0 w-full mx-auto z-10"
+      class="fixed max-w-[1550px] top-0 left-0 right-0 w-full mx-auto z-10 bg-[rgba(0,0,0,0.7)] backdrop-blur-sm"
     >
       <div
         class="px-[20px] md:px-[40px] lg:px-[80px] py-[10px] md:py-[15px] w-full"
@@ -19,7 +19,7 @@
               ><img
                 src="images/logo.png"
                 alt="shoe logo"
-                class="max-w-[120px] md:max-w-[130px] lg:max-w-[140px]"
+                class="max-w-[120px] sm:max-w-[130px] lg:max-w-[140px]"
             /></a>
           </div>
           <nav class="hidden md:block">
@@ -32,7 +32,9 @@
                 >
               </li>
               <li>
-                <a class="text-white text-base lg:text-2xl font-bold" href="#"
+                <a
+                  class="text-white text-base lg:text-2xl font-bold"
+                  href="#works"
                   >How It Works</a
                 >
               </li>
@@ -63,7 +65,7 @@
       id="hero"
       class="bg-[url('/images/background.png')] bg-cover md:bg-contain bg-no-repeat bg-right max-w-[1550px] mx-auto"
     >
-      <div class="max-w-[1300px] mx-auto px-0 md:pt-[140px]">
+      <div class="max-w-[1300px] mx-auto px-0 md:pt-[100px]">
         <div
           class="flex flex-col md:flex-row justify-between self-start md:items-center"
         >
@@ -80,7 +82,7 @@
             <img
               src="/images/shoe.png"
               alt="shoe image"
-              class="w-[60%] mx-auto pb-[60px] md:w-full md:pb-[0px]"
+              class="w-[60%] mx-auto pb-[60px] md:w-[85%] md:pb-[0px]"
             />
           </div>
         </div>
@@ -88,16 +90,83 @@
     </section>
     <section id="works" class="mt-10 max-w-[1440px] mx-auto">
       <h2
-        class="text-white text-5xl font-bold text-center max-w-xl -tracking-[4%] mx-auto"
+        class="text-white text-[20px] px-4 md:text-[24.5px] lg:text-5xl font-bold text-center max-w-[320px] md:max-w-[600px] xl:max-w-2xl -tracking-[4%] mx-auto"
       >
         Have they finally made the perfect workout shoe ?
       </h2>
-      <div class="work-img relative mx-auto">
+      <div
+        class="work-img relative mx-auto pt-[200px] lg:pt-[60px] xl:pt-[0px] md:px-[40px] px-0"
+      >
         <img
           src="/images/work.png"
           alt="shoe-image"
-          class="mx-auto pt-[60px]"
+          class="mx-auto xl:pt-[60px] rotate-6 max-w-[70%] md:max-w-[500px] xl:max-w-[700px] sm:rotate-6 xl:rotate-0"
         />
+        <div
+          class="max-w-[45%] md:max-w-[220px] lg:max-w-[280px] absolute left-[20px] md:left[70px] top-[40px] xl:top-0 lg:left-[80px] lg:top-[0] xl:left-[80px]"
+        >
+          <div>
+            <h4
+              class="text-white font-bold lg:text-3xl leading-[37.44px] md:text-[19.88px]"
+            >
+              THE HEEL
+            </h4>
+            <p class="text-white lg:text-xl md:text-[14px]">
+              The heel is well-built, has appropriate elevation and is not too
+              rigid.
+            </p>
+          </div>
+          <div>
+            <img
+              src="/images/arrow-1.png"
+              alt="arrow.png"
+              class="ml-0 md:ml-[80px] max-w-[40%] md:max-w-[120px] xl:max-w-[180px] rotate-12 md:rotate-0"
+            />
+          </div>
+        </div>
+        <div
+          class="max-w-[50%] md:max-w-[280px] absolute left-[50px] md:left-[20%] lg:left-[30%] lg:bottom-[-110px] xl:bottom-[-40px]"
+        >
+          <div>
+            <h4
+              class="text-white font-bold lg:text-3xl leading-[37.44px] relative md:text-[19.88px]"
+            >
+              TRACTION
+            </h4>
+            <p class="text-white lg:text-xl md:text-[14px]">
+              The shoe has good traction and doesn't slip easily.
+            </p>
+          </div>
+          <div>
+            <img
+              src="/images/arrow-3.png"
+              alt="arrow.png"
+              class="ml-auto absolute bottom-[40%] md:bottom-[-10px] xl:bottom-[-30px] right-[-40px] md:right-[-100px] max-w-[40%] md:max-w-[140px] lg:max-w-[180px]"
+            />
+          </div>
+        </div>
+        <div
+          class="max-w-[40%] md:max-w-[24%] lg:max-w-[280px] absolute top-[30px] md:top-[320px] lg:top-[230px] right-2 md:right-[30px] lg:right-[0] xl:right-[55px]"
+        >
+          <div class="relative">
+            <img
+              src="/images/arrow-2.png"
+              alt="arrow.png"
+              class="absolute max-w-[40%] rotate-[140deg] md:rotate-0 left-[-5%] md:left-[-45%] lg:left-[-30%] xl:left-[-55%] top-[140px] md:top-[-50px] lg:max-w-[120px] xl:max-w-[180px] md:max-w-[120px]"
+            />
+          </div>
+          <div>
+            <h4
+              class="text-white font-bold lg:text-3xl leading-[37.44px] md:text-[19.88px]"
+            >
+              THE FRONT
+            </h4>
+            <p class="text-white lg:text-xl md:text-[14px]">
+              The front is comfortable and adjusts well to the shape of your
+              foot.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   </body>
