@@ -602,8 +602,8 @@ html {
   right: 1rem;
 }
 
-.right-\[-160px\] {
-  right: -160px;
+.right-\[-170px\] {
+  right: -170px;
 }
 
 .right-\[-40px\] {
@@ -636,14 +636,6 @@ html {
 
 .top-\[40px\] {
   top: 40px;
-}
-
-.left-20 {
-  left: 5rem;
-}
-
-.right-20 {
-  right: 5rem;
 }
 
 .z-10 {
@@ -809,6 +801,42 @@ html {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.scroll-m-10 {
+  scroll-margin: 2.5rem;
+}
+
+.scroll-m-1 {
+  scroll-margin: 0.25rem;
+}
+
+.scroll-m-16 {
+  scroll-margin: 4rem;
+}
+
+.scroll-mt-16 {
+  scroll-margin-top: 4rem;
+}
+
+.scroll-mt-\[80px\] {
+  scroll-margin-top: 80px;
+}
+
+.scroll-mt-\[100px\] {
+  scroll-margin-top: 100px;
+}
+
+.scroll-mt-\[120px\] {
+  scroll-margin-top: 120px;
+}
+
+.scroll-mt-\[140px\] {
+  scroll-margin-top: 140px;
+}
+
+.scroll-mt-\[150px\] {
+  scroll-margin-top: 150px;
 }
 
 .flex-col {
@@ -1089,14 +1117,6 @@ html {
   --tw-backdrop-blur: blur(4px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-}
-
-.transition {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
 }
 
 .duration-500 {
