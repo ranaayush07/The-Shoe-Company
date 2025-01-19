@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="output.css" />
+    <script src="index.js" defer></script>
     <title>The Shoe Company</title>
   </head>
   <body class="bg-black">
@@ -61,8 +62,46 @@
               </li>
             </ul>
           </nav>
-          <div class="icon block md:hidden text-white text-5xl cursor-pointer">
+          <div
+            class="icon block md:hidden text-white text-5xl cursor-pointer relative hamburger"
+          >
             ☰
+          </div>
+          <div
+            class="md:hidden max-w-[170px] bg-[rgba(183,182,182,0.5)] absolute right-[-160px] top-10 rounded-lg transition duration-500 menu"
+          >
+            <ul class="pl-[10px] pr-[50px] space-y-2 pt-[20px] pb-[50px]">
+              <li>
+                <a class="text-white text-[16px] font-bold" href="#hero"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a class="text-white text-[16px] font-bold" href="#works"
+                  >How It Works</a
+                >
+              </li>
+              <li>
+                <a class="text-white text-[16px] font-bold" href="#about"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a class="text-white text-[16px] font-bold" href="#testimonials"
+                  >Testimonials</a
+                >
+              </li>
+              <li>
+                <a class="text-white text-[16px] font-bold" href="#contact"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+            <div
+              class="text-white text-[25px] absolute top-4 right-4 max-w-[30px] w-full arrow cursor-pointer"
+            >
+              <img src="/images/arrow.svg" class="max-w-[35px] w-full" />
+            </div>
           </div>
         </div>
       </div>
