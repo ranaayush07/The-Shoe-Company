@@ -627,9 +627,9 @@ html {
   margin-right: auto;
 }
 
-.my-\[80px\] {
-  margin-top: 80px;
-  margin-bottom: 80px;
+.my-\[40px\] {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .mb-\[20px\] {
@@ -900,6 +900,10 @@ html {
   padding-bottom: 60px;
 }
 
+.pb-\[15px\] {
+  padding-bottom: 15px;
+}
+
 .pb-\[40px\] {
   padding-bottom: 40px;
 }
@@ -918,14 +922,6 @@ html {
 
 .pt-\[200px\] {
   padding-top: 200px;
-}
-
-.pb-1 {
-  padding-bottom: 0.25rem;
-}
-
-.pb-\[15px\] {
-  padding-bottom: 15px;
 }
 
 .text-center {
@@ -1059,6 +1055,11 @@ html {
 
   .md\:top-\[320px\] {
     top: 320px;
+  }
+
+  .md\:my-\[80px\] {
+    margin-top: 80px;
+    margin-bottom: 80px;
   }
 
   .md\:mb-0 {
