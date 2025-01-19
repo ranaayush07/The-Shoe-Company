@@ -1015,10 +1015,6 @@ html {
   font-size: 25px;
 }
 
-.text-\[28\.83px\] {
-  font-size: 28.83px;
-}
-
 .text-\[28px\] {
   font-size: 28px;
 }
@@ -1029,6 +1025,10 @@ html {
 
 .text-\[32px\] {
   font-size: 32px;
+}
+
+.text-\[48\.83px\] {
+  font-size: 48.83px;
 }
 
 .text-\[64px\] {
@@ -1056,10 +1056,6 @@ html {
   line-height: 32px;
 }
 
-.leading-\[33\.73px\] {
-  line-height: 33.73px;
-}
-
 .leading-\[36px\] {
   line-height: 36px;
 }
@@ -1070,6 +1066,10 @@ html {
 
 .leading-\[40px\] {
   line-height: 40px;
+}
+
+.leading-\[48\.73px\] {
+  line-height: 48.73px;
 }
 
 .-tracking-\[4\%\] {
@@ -1131,14 +1131,14 @@ html {
     top: 320px;
   }
 
-  .md\:my-\[80px\] {
-    margin-top: 80px;
-    margin-bottom: 80px;
-  }
-
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .md\:my-\[80px\] {
+    margin-top: 80px;
+    margin-bottom: 80px;
   }
 
   .md\:mb-0 {
@@ -1228,10 +1228,6 @@ html {
     margin-bottom: calc(2rem * var(--tw-space-y-reverse));
   }
 
-  .md\:self-center {
-    align-self: center;
-  }
-
   .md\:bg-contain {
     background-size: contain;
   }
@@ -1258,10 +1254,6 @@ html {
     padding-top: 100px;
   }
 
-  .md\:text-\[103px\] {
-    font-size: 103px;
-  }
-
   .md\:text-\[14px\] {
     font-size: 14px;
   }
@@ -1282,12 +1274,16 @@ html {
     font-size: 36px;
   }
 
-  .md\:leading-\[115px\] {
-    line-height: 115px;
+  .md\:text-\[70px\] {
+    font-size: 70px;
   }
 
   .md\:leading-\[48px\] {
     line-height: 48px;
+  }
+
+  .md\:leading-\[82px\] {
+    line-height: 82px;
   }
 }
 
@@ -1365,10 +1361,6 @@ html {
     flex-direction: row;
   }
 
-  .lg\:items-center {
-    align-items: center;
-  }
-
   .lg\:space-x-10 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(2.5rem * var(--tw-space-x-reverse));
@@ -1403,6 +1395,10 @@ html {
     line-height: 1;
   }
 
+  .lg\:text-\[103px\] {
+    font-size: 103px;
+  }
+
   .lg\:text-\[64px\] {
     font-size: 64px;
   }
@@ -1410,6 +1406,10 @@ html {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:leading-\[115px\] {
+    line-height: 115px;
   }
 
   .lg\:leading-\[75\.2px\] {
