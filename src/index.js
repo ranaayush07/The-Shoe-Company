@@ -12,3 +12,8 @@ crossIcon.addEventListener("click", (e)=>{
     hamburgerMenu.classList.remove("hidden")
     console.log("arrow pressed")
 })
+
+const heading = document.querySelector(".h-heading")
+heading.addEventListener("click", ()=>{
+  heading.classList.toggle("active")
+})
